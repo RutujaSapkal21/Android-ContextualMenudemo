@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Edit"
+        android:id="@+id/edit">
+        <menu>
+            <item
+                android:title="Edit Student"
+                android:id="@+id/eds"/>
+            <item
+                android:title="Edit Teacher"
+                android:id="@+id/edt"/>
+
+        </menu>
+    </item>
+
+
+
+
+    <item
+        android:title="remove"
+        android:id="@+id/remove"/>
+    <item
+        android:title="View"
+        android:id="@+id/view"/>
+    <item
+        android:title="Call"
+        android:id="@+id/call"/>
+</menu>
